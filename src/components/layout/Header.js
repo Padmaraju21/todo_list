@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaPizzaSlice } from 'react-icons/fa';
+import { GiAllSeeingEye } from 'react-icons/gi';
 import PropTypes from 'prop-types';
 import { AddTask } from '../AddTask';
 
@@ -35,7 +35,7 @@ export const Header = ({ darkMode, setDarkMode }) => {
                 type="button"
                 onClick={() => setDarkMode(!darkMode)}
               >
-                <FaPizzaSlice />
+                <GiAllSeeingEye />
               </button>
             </li>
           </ul>
